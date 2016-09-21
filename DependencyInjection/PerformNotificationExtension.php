@@ -1,13 +1,13 @@
 <?php
 
-namespace Admin\NotificationBundle\DependencyInjection;
+namespace Perform\NotificationBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
-class AdminNotificationExtension extends Extension
+class PerformNotificationExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
